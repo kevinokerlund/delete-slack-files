@@ -1,0 +1,31 @@
+{
+  "name": "delete-slack-files",
+  "version": "0.0.4",
+  "description": "Delete Slack files in bulk using npx",
+  "bin": {
+    "delete-slack-files": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinokerlund/delete-slack-files.git"
+  },
+  "keywords": [
+    "Delete",
+    "Slack",
+    "files",
+    "npx",
+    "API"
+  ],
+  "author": "kevinokerlund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinokerlund/delete-slack-files/issues"
+  },
+  "homepage": "https://github.com/kevinokerlund/delete-slack-files#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
