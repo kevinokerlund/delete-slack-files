@@ -1,6 +1,6 @@
 {
   "name": "delete-slack-files",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Delete Slack files in bulk using npx",
   "bin": {
     "delete-slack-files": "./index.js"
