@@ -1,4 +1,4 @@
-# Delete Slack Files
+# [ABANDONED/DEPRECATED] Delete Slack Files
 Bulk delete Slack files from your workspace.
 
 **Disclaimer: This is NOT an official Slack package.**
@@ -16,11 +16,12 @@ you will need to provide an authentication token.
 
 ### Create an API token
 
+SLACK NO LONGER ALLOWS LEGACY TOKENS
+
 1. Navigate to
 https://api.slack.com/custom-integrations/legacy-tokens
 2. Find the workspace you want to delete files for, and click the "Create token" button.
 The token generated is the one you will use in the command.
-![Alt text](media/generate-legacy-token.png?raw=true "Title")
 
 ### Revoking a token
 
@@ -30,7 +31,6 @@ It is important to revoke legacy tokens after use.
 https://api.slack.com/methods/auth.revoke/test
 2. Select the workspace you created a token for, and click the "Test Method" button.
 The token will be destroyed.
-![Alt text](media/revoke-legacy-token.png?raw=true "Title")
 
 ## Flags
 `--dry` Perform a dry run
